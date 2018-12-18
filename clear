@@ -1,0 +1,3 @@
+#!/bin/rc
+#http://9front.org/extra/rc/clear
+awk 'END { for(i=0; i < 100000; i++) printf "\x08" }' </dev/null
